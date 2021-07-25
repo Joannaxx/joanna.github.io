@@ -1,0 +1,107 @@
+/*limpar formatação*/
+*{
+	margin:0;
+	padding:0; 
+}
+body{
+	font-size: 1em;
+	font-family: serif, garamond;
+	background: #b4b4b4;
+}
+ 
+
+/*
+****  Formatação do menu ****
+*/
+a:link, a:visited{
+	color: #000000;
+	padding: 10px;
+}
+a:hover{
+	color:#ffffff;
+}
+
+
+/*
+**** layout ****
+*/
+#area_cabecalho{
+	padding: 20px;
+	text-align: center;
+}
+#area_menu{
+	padding: 20px;
+}
+#area_principal{
+	width: 920px;
+	margin: 0 auto;
+	padding: 15px;
+
+}
+#postagens{
+	background: #3cb371;
+	width: 660;
+	float: left;
+	color:black;
+}
+#lateral{
+	background: #3cb371;
+	width: 240px;
+	float: right;
+}
+.postagem{
+	padding: 20 px;
+	margin-bottom: 20px;
+}
+.conteudo-lateral{
+	padding: 10px;
+	margin-bottom: 20px;
+}
+.texto-lateral{
+	font-size: 1em;
+	padding: 5px;
+
+}
+#rodape{
+	clear: buth;
+	text-align: center;
+	padding: 15px;
+	background: #808080;
+}
+#paragrafo{
+	text-align: center justify;
+	color:black;
+	padding:20px;
+
+}
+h3{
+	text-align: left;
+	color: white;
+	padding:20px;
+	font-family: manospace, Courier New;
+}
+#fonte{
+	text-align: left;
+	color: white;
+	padding:20px;
+	font-family: manospace, Courier New;
+}
+#texto_geral{
+	text-align: left;
+	color:black;
+	padding:20px;
+	font-family: serif, garamond;
+
+}
+#titulo{
+	text-align: center;
+	color:black;
+	padding: 20px;
+	font-family: fantasy, papyrus;
+}
+#postagem_recente{
+	text-align: center;
+	color:black;
+	padding: 20px;
+	font-family: fantasy, papyrus;
+}
